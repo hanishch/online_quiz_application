@@ -1,0 +1,27 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('https://media.istockphoto.com/id/1432216659/vector/vector-seamless-pattern-background-with-monochrome-blue-sign-question-marks-backdrop.jpg?s=1024x1024&w=is&k=20&c=Cmf2vniDj88FlmduPtET4XEraKpJr8m-fI-tW_S2gPs=');
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+}
+
+#quiz-container {
+  max-width: 700px;
+  margin: auto;
+  display:none;
+}
+.option-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.option-btn.correct {
+  background-color: #28a745;
+  color: white;
+}
+.option-btn.wrong {
+  background-color: #dc3545;
+  color: white;
+}
